@@ -1,0 +1,71 @@
+/* min-width:0; для flex-элементов */
+/* ============================ */
+/* Слайдер */
+.slick-slider {
+  height: auto;
+  outline: none;
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+  /* //чтобы не выглядывали части других слайдов */
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+/* Слайд */
+.slick-slide {
+  margin: auto;
+  max-width: 948px;
+  justify-content: center;
+}
+/* Слайд активный (показывается) */
+.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+
+.slider__item {
+}
+.slick-center {
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+}
+.slick-dots li {
+  display: flex;
+  list-style: none;
+}
+
+.slick-dots button {
+  border: 2px solid #ffbb01;
+  background: none;
+  width: 10px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 0;
+  margin-right: 10px;
+}
+/* активный буллит */
+.slick-dots li.slick-active button {
+  background: #ffbb01;
+}
