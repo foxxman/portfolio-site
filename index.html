@@ -46,7 +46,9 @@
               Разрабатываю сайты для малого и среднего бизнеса. У меня можно
               заказать дизайн и верстку небольшого сайта или интернет-магазина
             </p>
-            <a href="#bottom" class="bottomLink"><button class="button hero-button">Бесплатная консультация</button></a>
+            <a href="#bottom" class="bottomLink">
+              <button class="button hero-button">Бесплатная консультация</button>
+            </a>
             
           </div>
           <!-- /.hero-text -->
@@ -63,7 +65,7 @@
             Со мной удобно работать
           </h2>
           <div class="features-block">
-            <div class="features-item wow fadeInRight data-wow-delay='0.4s'">
+            <!-- <div class="features-item wow fadeInRight data-wow-delay='0.4s'">
               <img
                 src="./img/features/offer-img.svg"
                 alt="По договору"
@@ -72,9 +74,9 @@
               <h3 class="features-title">По договору</h3>
               <p class="features-text">
                 Предоставлю все документы для бухгалтерии: договоры, счета и
-                акты. Работаю как ИП без НДС.
+                акты.
               </p>
-            </div>
+            </div> -->
             <div class="features-item wow fadeInRight data-wow-delay='0.4s'">
               <img
                 src="./img/features/deadline-img.svg"
@@ -83,7 +85,7 @@
               />
               <h3 class="features-title">Точно в срок</h3>
               <p class="features-text">
-                В договоре прописана моя ответственность за срок проекта. Если
+                Беру ответственность за срок проекта. Если
                 просрочу — плачу неустойку.
               </p>
             </div>
@@ -131,8 +133,7 @@
               />
               <h3 class="features-title">Не брошу после сдачи</h3>
               <p class="features-text">
-                Научу вас или вашего сотрудника пользоваться сайтом, запишу
-                видео-инструкции.
+                Научу вас или вашего сотрудника пользоваться сайтом.
               </p>
             </div>
           </div>
@@ -184,11 +185,7 @@
                     <div class="description-point__text">
                       <p class="description-point__title">Описание</p>
                       <p class="description-point__content">
-                        Мне понравилось работать с Артемом, потому что он все
-                        время был на связи и предлагал свои решения, когда мы
-                        заходили в тупик с дизайном. Мне нужны были закрывающие
-                        документы для бухгалтерии, и Артем — тот редкий
-                        фрилансер, у которого с документами все в порядке
+                        ----------------------
                       </p>
                     </div>
                   </div>
@@ -282,11 +279,7 @@
                     <div class="description-point__text">
                       <p class="description-point__title">Описание</p>
                       <p class="description-point__content">
-                        Мне понравилось работать с Артемом, потому что он все
-                        время был на связи и предлагал свои решения, когда мы
-                        заходили в тупик с дизайном. Мне нужны были закрывающие
-                        документы для бухгалтерии, и Артем — тот редкий
-                        фрилансер, у которого с документами все в порядке
+                        ------------------
                       </p>
                     </div>
                   </div>
@@ -306,21 +299,27 @@
         <a id='bottom'></a>
         <h2  class="section-title">Свяжитесь со мной</h2>
         <div class="contacts-block">
-          <form action="#" class="contacts-form">
+
+          <form action="" method="post" class="contacts-form">
             <h4 class="form-title">
               Или можете просто оставить заявку, я свяжусь с Вами сегодня
             </h4>
             <input
+            id="input-name"
               type="text"
               class="input input-name"
               placeholder="Ваше имя"
+              name="name"
             />
             <input
+            id="input-phone"
               type="text"
               class="input input-phone"
               placeholder="Ваш телефон или email"
+              name="contact"
             />
-            <button class="button form-button">Бесплатная консультация</button>
+            <!-- <input type="submit" value="Бесплатная консультация" class="button form-button" /> -->
+            <button type="submit" class="button form-button">Бесплатная консультация</button>
           </form>
 
           <div class="contacts-text">
